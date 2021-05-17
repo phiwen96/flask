@@ -1,0 +1,6 @@
+[submodule "cmake/phake"]
+	path = cmake/phake
+	url = https://github.com/phiwen96/phake
+[submodule "dependencies/language"]
+	path = dependencies/language
+	url = https://github.com/phiwen96/language

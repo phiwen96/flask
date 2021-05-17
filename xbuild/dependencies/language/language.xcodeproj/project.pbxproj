@@ -1,0 +1,1749 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		12D3F9CEE9234740A971E729 /* install */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BD0A996989904B5DB08B2D82 /* Build configuration list for PBXAggregateTarget "install" */;
+			buildPhases = (
+				93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+				CFFBA4EED49F4F0982E6D260 /* PBXTargetDependency */,
+			);
+			name = install;
+			productName = install;
+		};
+		1DAD8EEA34F043B88480E3AB /* NightlyMemoryCheck */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 3BEBA39B096B4D3BA583263A /* Build configuration list for PBXAggregateTarget "NightlyMemoryCheck" */;
+			buildPhases = (
+				E9BF10CCF20463D90CCEA37E /* Generate ../../_deps/catch-build/CMakeFiles/NightlyMemoryCheck */,
+			);
+			dependencies = (
+			);
+			name = NightlyMemoryCheck;
+			productName = NightlyMemoryCheck;
+		};
+		24C1E39ED1DD456DB999C90F /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BC7988749943433287150324 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				3888B4C91A6E69D7CACA7163 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				B9E5C43172654B739E301BD6 /* PBXTargetDependency */,
+				3CE4FEC87F5040F08953892A /* PBXTargetDependency */,
+				B3043228A7874002A83E94B0 /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		25A4F9311DC347598D7CF4B3 /* Continuous */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E1EE5916C93747178F2391C0 /* Build configuration list for PBXAggregateTarget "Continuous" */;
+			buildPhases = (
+				83432DB9F157F2B3825D919E /* Generate ../../_deps/catch-build/CMakeFiles/Continuous */,
+			);
+			dependencies = (
+			);
+			name = Continuous;
+			productName = Continuous;
+		};
+		4E34A062908746FDA1960930 /* Experimental */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2C0469B8FA4C4181A235452A /* Build configuration list for PBXAggregateTarget "Experimental" */;
+			buildPhases = (
+				2AAA6F380B5FC4B2D1DB1032 /* Generate ../../_deps/catch-build/CMakeFiles/Experimental */,
+			);
+			dependencies = (
+			);
+			name = Experimental;
+			productName = Experimental;
+		};
+		89BABF4261F640DF8DA2CED0 /* RUN_TESTS */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 4A17A50A7AEE419AACFD8420 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */;
+			buildPhases = (
+				003C8D08B0008F35F218E126 /* CMake PostBuild Rules */,
+			);
+			dependencies = (
+			);
+			name = RUN_TESTS;
+			productName = RUN_TESTS;
+		};
+		93B707143C794E2B802A0F8D /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BE270E67ED844977A8813530 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				3BDD723276F3BAC5020C4A1E /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		B3530F9DBB5443F0BAB7F911 /* Nightly */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 839A0BCA154541D4B08107B9 /* Build configuration list for PBXAggregateTarget "Nightly" */;
+			buildPhases = (
+				9834A9C8ACB92F60F997530D /* Generate ../../_deps/catch-build/CMakeFiles/Nightly */,
+			);
+			dependencies = (
+			);
+			name = Nightly;
+			productName = Nightly;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		13444DE6038B4AF1B1D4FE86 /* /Users/philipwenkel/Github/flask/dependencies/language/src/uni.cpp */ = {isa = PBXBuildFile; fileRef = 93C708A748844C4EBAFD7B4F /* /Users/philipwenkel/Github/flask/dependencies/language/src/uni.cpp */; };
+		2D36FD23B69443ABA692B9DD /* /Users/philipwenkel/Github/flask/dependencies/language/src/promise.cpp */ = {isa = PBXBuildFile; fileRef = C763BDD0B1C5429792B01915 /* /Users/philipwenkel/Github/flask/dependencies/language/src/promise.cpp */; };
+		30045BD080EB448AA42BC56E /* /Users/philipwenkel/Github/flask/dependencies/language/tests/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = F7848DAC8B14433F9FD6586E /* /Users/philipwenkel/Github/flask/dependencies/language/tests/CMakeLists.txt */; };
+		5077C832D0364A3A8CAF52DF /* /Users/philipwenkel/Github/flask/dependencies/language/src/language.cpp */ = {isa = PBXBuildFile; fileRef = 5E14822B4B864E6996A03A4D /* /Users/philipwenkel/Github/flask/dependencies/language/src/language.cpp */; };
+		5494B695617947169E7150F3 /* /Users/philipwenkel/Github/flask/dependencies/language/tests/include/test.hpp */ = {isa = PBXBuildFile; fileRef = 1AB8ADC546BD4277995F12B7 /* /Users/philipwenkel/Github/flask/dependencies/language/tests/include/test.hpp */; };
+		79C1D5C472034716A210F95C /* /Users/philipwenkel/Github/flask/dependencies/language/src/token.cpp */ = {isa = PBXBuildFile; fileRef = D86E2FBB8DF340DEB9F07197 /* /Users/philipwenkel/Github/flask/dependencies/language/src/token.cpp */; };
+		8BC9F72D330044BC9111B0E3 /* /Users/philipwenkel/Github/flask/dependencies/language/src/lexer.cpp */ = {isa = PBXBuildFile; fileRef = EDDE8FCFC0314540BAE8FA9D /* /Users/philipwenkel/Github/flask/dependencies/language/src/lexer.cpp */; };
+		8ECA405AC7F742B489703E2B /* /Users/philipwenkel/Github/flask/dependencies/language/tests/testlib.cpp */ = {isa = PBXBuildFile; fileRef = B2AA34D4BDCC46C49D6A2F15 /* /Users/philipwenkel/Github/flask/dependencies/language/tests/testlib.cpp */; };
+		989106CCC3C1499F9513B7DD /* /Users/philipwenkel/Github/flask/dependencies/language/tests/test.cpp */ = {isa = PBXBuildFile; fileRef = 1512B3443E64438D94F3CA93 /* /Users/philipwenkel/Github/flask/dependencies/language/tests/test.cpp */; };
+		AC422BF1678B44829EFC0C10 /* /Users/philipwenkel/Github/flask/dependencies/language/src/task.cpp */ = {isa = PBXBuildFile; fileRef = 12097292AA29437BADF735A7 /* /Users/philipwenkel/Github/flask/dependencies/language/src/task.cpp */; };
+		F6AD5BAADC94426A8A2CF622 /* /Users/philipwenkel/Github/flask/dependencies/language/src/CMakeLists.txt */ = {isa = PBXBuildFile; fileRef = 365F5CE4927242CDA3AD159B /* /Users/philipwenkel/Github/flask/dependencies/language/src/CMakeLists.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXBuildStyle section */
+		3462C9E95E914819AD47E1AE /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		8D265C07AE00419AB7A2D7A3 /* Kuk */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Kuk;
+		};
+		A097DA1ABF10471CB9714D26 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		56684B10B50E4326A270767A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59525949E8B45F188DDFB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B707143C794E2B802A0F8D;
+			remoteInfo = ZERO_CHECK;
+		};
+		5F01BB523BFD485F9AC2B611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59525949E8B45F188DDFB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B707143C794E2B802A0F8D;
+			remoteInfo = ZERO_CHECK;
+		};
+		7014E30EB9F6477C816A1A10 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59525949E8B45F188DDFB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 93B707143C794E2B802A0F8D;
+			remoteInfo = ZERO_CHECK;
+		};
+		77A33D21682B44CC9D9535F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59525949E8B45F188DDFB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24C1E39ED1DD456DB999C90F;
+			remoteInfo = ALL_BUILD;
+		};
+		79234E0CFCF2404CABB3D63D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59525949E8B45F188DDFB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274274536AA141EEAC6C2D89;
+			remoteInfo = language;
+		};
+		7D3A8AC74B9141A3AC158DDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59525949E8B45F188DDFB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17595389266D49258FBBD033;
+			remoteInfo = test_language;
+		};
+		CDDC55B7C5C347B288FD012E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B59525949E8B45F188DDFB8E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 274274536AA141EEAC6C2D89;
+			remoteInfo = language;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		12097292AA29437BADF735A7 /* /Users/philipwenkel/Github/flask/dependencies/language/src/task.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = task.cpp; path = src/task.cpp; sourceTree = SOURCE_ROOT; };
+		1512B3443E64438D94F3CA93 /* /Users/philipwenkel/Github/flask/dependencies/language/tests/test.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = test.cpp; path = tests/test.cpp; sourceTree = SOURCE_ROOT; };
+		177EDA85A2BF4728BDAF7489 /* /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "../../xbuild/_deps/catch-src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		1AB8ADC546BD4277995F12B7 /* /Users/philipwenkel/Github/flask/dependencies/language/tests/include/test.hpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.h; fileEncoding = 4; name = test.hpp; path = tests/include/test.hpp; sourceTree = SOURCE_ROOT; };
+		365F5CE4927242CDA3AD159B /* /Users/philipwenkel/Github/flask/dependencies/language/src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = src/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		443209FFE537458EAF7DC3C6 /* test_language */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = test_language; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7847CED5F149EF8A67C9F1 /* /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "../../xbuild/_deps/catch-src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		546709B5E1D34D9CA7B2CB6A /* language */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = liblanguage.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E14822B4B864E6996A03A4D /* /Users/philipwenkel/Github/flask/dependencies/language/src/language.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = language.cpp; path = src/language.cpp; sourceTree = SOURCE_ROOT; };
+		64A53028B5884276AC6B4D60 /* /Users/philipwenkel/Github/flask/dependencies/language/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		93C708A748844C4EBAFD7B4F /* /Users/philipwenkel/Github/flask/dependencies/language/src/uni.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = uni.cpp; path = src/uni.cpp; sourceTree = SOURCE_ROOT; };
+		97AE24F8F1D74E19881795AF /* /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "../../xbuild/_deps/catch-src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		B2AA34D4BDCC46C49D6A2F15 /* /Users/philipwenkel/Github/flask/dependencies/language/tests/testlib.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = testlib.cpp; path = tests/testlib.cpp; sourceTree = SOURCE_ROOT; };
+		C763BDD0B1C5429792B01915 /* /Users/philipwenkel/Github/flask/dependencies/language/src/promise.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = promise.cpp; path = src/promise.cpp; sourceTree = SOURCE_ROOT; };
+		D86E2FBB8DF340DEB9F07197 /* /Users/philipwenkel/Github/flask/dependencies/language/src/token.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = token.cpp; path = src/token.cpp; sourceTree = SOURCE_ROOT; };
+		EDDE8FCFC0314540BAE8FA9D /* /Users/philipwenkel/Github/flask/dependencies/language/src/lexer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = lexer.cpp; path = src/lexer.cpp; sourceTree = SOURCE_ROOT; };
+		F6E4BE49B65245AC9CF9806A /* /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = "../../xbuild/_deps/catch-src/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
+		F7848DAC8B14433F9FD6586E /* /Users/philipwenkel/Github/flask/dependencies/language/tests/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = tests/CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4077B9834A641F38217A2F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7DF2F68F92A4B00AE269447 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		062FAE34619643F1ABDA50F8 /* test_language */ = {
+			isa = PBXGroup;
+			children = (
+				26FB4C76A0D247768367ACE3 /* Source Files */,
+				901C6763068A400D8A1C7257 /* Header Files */,
+				F7848DAC8B14433F9FD6586E /* /Users/philipwenkel/Github/flask/dependencies/language/tests/CMakeLists.txt */,
+			);
+			name = test_language;
+			sourceTree = "<group>";
+		};
+		239939056D17438482C64F55 /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				B94C5523F48D4EEA9B251231 /* language */,
+			);
+			name = dependencies;
+			sourceTree = "<group>";
+		};
+		26FB4C76A0D247768367ACE3 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				1512B3443E64438D94F3CA93 /* /Users/philipwenkel/Github/flask/dependencies/language/tests/test.cpp */,
+				B2AA34D4BDCC46C49D6A2F15 /* /Users/philipwenkel/Github/flask/dependencies/language/tests/testlib.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		339AEADBEED349FBB318AC0C /* sources */ = {
+			isa = PBXGroup;
+			children = (
+				5E14822B4B864E6996A03A4D /* /Users/philipwenkel/Github/flask/dependencies/language/src/language.cpp */,
+				EDDE8FCFC0314540BAE8FA9D /* /Users/philipwenkel/Github/flask/dependencies/language/src/lexer.cpp */,
+				C763BDD0B1C5429792B01915 /* /Users/philipwenkel/Github/flask/dependencies/language/src/promise.cpp */,
+				12097292AA29437BADF735A7 /* /Users/philipwenkel/Github/flask/dependencies/language/src/task.cpp */,
+				D86E2FBB8DF340DEB9F07197 /* /Users/philipwenkel/Github/flask/dependencies/language/src/token.cpp */,
+				93C708A748844C4EBAFD7B4F /* /Users/philipwenkel/Github/flask/dependencies/language/src/uni.cpp */,
+			);
+			name = sources;
+			sourceTree = "<group>";
+		};
+		339B852BFF9348EF8F79DA66 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		487C151ECB6C4D82A80F9629 /* Nightly */ = {
+			isa = PBXGroup;
+			children = (
+				85AAEECC3F9E4446AD510482 /* CMake Rules */,
+				177EDA85A2BF4728BDAF7489 /* /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src/CMakeLists.txt */,
+			);
+			name = Nightly;
+			sourceTree = "<group>";
+		};
+		5075843ABD5140298948E4C8 /* Continuous */ = {
+			isa = PBXGroup;
+			children = (
+				C4A325B9D4424BB797E26280 /* CMake Rules */,
+				F6E4BE49B65245AC9CF9806A /* /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src/CMakeLists.txt */,
+			);
+			name = Continuous;
+			sourceTree = "<group>";
+		};
+		51F441C7C05D4084A343236F /* CTestDashboardTargets */ = {
+			isa = PBXGroup;
+			children = (
+				6503F6529FBF45B48C4088E6 /* NightlyMemoryCheck */,
+				487C151ECB6C4D82A80F9629 /* Nightly */,
+				5075843ABD5140298948E4C8 /* Continuous */,
+				E0C9CE8BDEDD4D67877AE793 /* Experimental */,
+			);
+			name = CTestDashboardTargets;
+			sourceTree = "<group>";
+		};
+		54FE56C893E448FF869D3567 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		6503F6529FBF45B48C4088E6 /* NightlyMemoryCheck */ = {
+			isa = PBXGroup;
+			children = (
+				339B852BFF9348EF8F79DA66 /* CMake Rules */,
+				4E7847CED5F149EF8A67C9F1 /* /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src/CMakeLists.txt */,
+			);
+			name = NightlyMemoryCheck;
+			sourceTree = "<group>";
+		};
+		845FEAE0C9E044A8ADAD8C69 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				C7F2D7A627A84AC890D172DE /* CMake Rules */,
+				64A53028B5884276AC6B4D60 /* /Users/philipwenkel/Github/flask/dependencies/language/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		85AAEECC3F9E4446AD510482 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		901C6763068A400D8A1C7257 /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AB8ADC546BD4277995F12B7 /* /Users/philipwenkel/Github/flask/dependencies/language/tests/include/test.hpp */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		965DF631C8384E35A52A5C9E /* language */ = {
+			isa = PBXGroup;
+			children = (
+				339AEADBEED349FBB318AC0C /* sources */,
+				365F5CE4927242CDA3AD159B /* /Users/philipwenkel/Github/flask/dependencies/language/src/CMakeLists.txt */,
+			);
+			name = language;
+			sourceTree = "<group>";
+		};
+		B94C5523F48D4EEA9B251231 /* language */ = {
+			isa = PBXGroup;
+			children = (
+				965DF631C8384E35A52A5C9E /* language */,
+				062FAE34619643F1ABDA50F8 /* test_language */,
+			);
+			name = language;
+			sourceTree = "<group>";
+		};
+		C4A325B9D4424BB797E26280 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		C73A73C67B8F4C4DA774EF55 = {
+			isa = PBXGroup;
+			children = (
+				845FEAE0C9E044A8ADAD8C69 /* ALL_BUILD */,
+				239939056D17438482C64F55 /* dependencies */,
+				51F441C7C05D4084A343236F /* CTestDashboardTargets */,
+				EBE1BE3EED35462E99F032FD /* Products */,
+				EE4D8A1F3F69440EAC11D798 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C7F2D7A627A84AC890D172DE /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		E0C9CE8BDEDD4D67877AE793 /* Experimental */ = {
+			isa = PBXGroup;
+			children = (
+				54FE56C893E448FF869D3567 /* CMake Rules */,
+				97AE24F8F1D74E19881795AF /* /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src/CMakeLists.txt */,
+			);
+			name = Experimental;
+			sourceTree = "<group>";
+		};
+		EBE1BE3EED35462E99F032FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				546709B5E1D34D9CA7B2CB6A /* language */,
+				443209FFE537458EAF7DC3C6 /* test_language */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE4D8A1F3F69440EAC11D798 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17595389266D49258FBBD033 /* test_language */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A25A90945E64FDD8BCD7C2C /* Build configuration list for PBXNativeTarget "test_language" */;
+			buildPhases = (
+				5C0D7BEF4D2F449185A5A397 /* Sources */,
+				B4077B9834A641F38217A2F3 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				38BB548DE02142BBAB4724C1 /* PBXTargetDependency */,
+				0840FA4EDC8C46668363FA88 /* PBXTargetDependency */,
+			);
+			name = test_language;
+			productName = test_language;
+			productReference = 443209FFE537458EAF7DC3C6 /* test_language */;
+			productType = "com.apple.product-type.tool";
+		};
+		274274536AA141EEAC6C2D89 /* language */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1C689C5970B448EAC5D1483 /* Build configuration list for PBXNativeTarget "language" */;
+			buildPhases = (
+				2B0C40926F4F4543BF157BF7 /* Sources */,
+				C7DF2F68F92A4B00AE269447 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BAD34348CEB47C0B32910B0 /* PBXTargetDependency */,
+			);
+			name = language;
+			productName = language;
+			productReference = 546709B5E1D34D9CA7B2CB6A /* language */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B59525949E8B45F188DDFB8E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = D1D2401573AD4AFBA73B9CEC /* Build configuration list for PBXProject "language" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				3462C9E95E914819AD47E1AE /* Debug */,
+				A097DA1ABF10471CB9714D26 /* Release */,
+				8D265C07AE00419AB7A2D7A3 /* Kuk */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = C73A73C67B8F4C4DA774EF55;
+			projectDirPath = ../../../dependencies/language;
+			projectRoot = "";
+			targets = (
+				24C1E39ED1DD456DB999C90F /* ALL_BUILD */,
+				25A4F9311DC347598D7CF4B3 /* Continuous */,
+				4E34A062908746FDA1960930 /* Experimental */,
+				B3530F9DBB5443F0BAB7F911 /* Nightly */,
+				1DAD8EEA34F043B88480E3AB /* NightlyMemoryCheck */,
+				89BABF4261F640DF8DA2CED0 /* RUN_TESTS */,
+				93B707143C794E2B802A0F8D /* ZERO_CHECK */,
+				12D3F9CEE9234740A971E729 /* install */,
+				274274536AA141EEAC6C2D89 /* language */,
+				17595389266D49258FBBD033 /* test_language */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		003C8D08B0008F35F218E126 /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/dependencies/language
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/dependencies/language
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+if test \"$CONFIGURATION\" = \"Kuk\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/dependencies/language
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest --force-new-ctest-process -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		09FB783FD30DC6E66DF354AF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		23E0E19C1FE635DB84934AD9 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		2AAA6F380B5FC4B2D1DB1032 /* Generate ../../_deps/catch-build/CMakeFiles/Experimental */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate ../../_deps/catch-build/CMakeFiles/Experimental";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build/CMakeFiles/Experimental"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME -D Experimental
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME -D Experimental
+fi
+if test \"$CONFIGURATION\" = \"Kuk\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME -D Experimental
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		323E6CE94951678BF055CC89 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3888B4C91A6E69D7CACA7163 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+/Users/philipwenkel/Github/flask/xbuild/dependencies/language/CMakeFiles/ALL_BUILD			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/dependencies/language
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/dependencies/language
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Kuk\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/dependencies/language
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3BDD723276F3BAC5020C4A1E /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+/Users/philipwenkel/Github/flask/xbuild/dependencies/language/CMakeFiles/ZERO_CHECK			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/dependencies/language
+  make -f /Users/philipwenkel/Github/flask/xbuild/dependencies/language/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/dependencies/language
+  make -f /Users/philipwenkel/Github/flask/xbuild/dependencies/language/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Kuk\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/dependencies/language
+  make -f /Users/philipwenkel/Github/flask/xbuild/dependencies/language/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		83432DB9F157F2B3825D919E /* Generate ../../_deps/catch-build/CMakeFiles/Continuous */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate ../../_deps/catch-build/CMakeFiles/Continuous";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build/CMakeFiles/Continuous"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME -D Continuous
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME -D Continuous
+fi
+if test \"$CONFIGURATION\" = \"Kuk\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME -D Continuous
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		87AF4882E018677E2624B544 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		910A41151295C5F9742C25BD = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		93426DA6A4AC2C2AC9CE883C /* CMake PostBuild Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake PostBuild Rules";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/dependencies/language
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/dependencies/language
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+if test \"$CONFIGURATION\" = \"Kuk\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/dependencies/language
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -DBUILD_TYPE=$CONFIGURATION$EFFECTIVE_PLATFORM_NAME -P cmake_install.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9834A9C8ACB92F60F997530D /* Generate ../../_deps/catch-build/CMakeFiles/Nightly */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate ../../_deps/catch-build/CMakeFiles/Nightly";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build/CMakeFiles/Nightly"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME -D Nightly
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME -D Nightly
+fi
+if test \"$CONFIGURATION\" = \"Kuk\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME -D Nightly
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A68D7F74133ED74D8658B427 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E9BF10CCF20463D90CCEA37E /* Generate ../../_deps/catch-build/CMakeFiles/NightlyMemoryCheck */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate ../../_deps/catch-build/CMakeFiles/NightlyMemoryCheck";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build/CMakeFiles/NightlyMemoryCheck"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME -D NightlyMemoryCheck
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME -D NightlyMemoryCheck
+fi
+if test \"$CONFIGURATION\" = \"Kuk\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/ctest -C $CONFIGURATION$EFFECTIVE_PLATFORM_NAME -D NightlyMemoryCheck
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B0C40926F4F4543BF157BF7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5077C832D0364A3A8CAF52DF /* /Users/philipwenkel/Github/flask/dependencies/language/src/language.cpp */,
+				8BC9F72D330044BC9111B0E3 /* /Users/philipwenkel/Github/flask/dependencies/language/src/lexer.cpp */,
+				2D36FD23B69443ABA692B9DD /* /Users/philipwenkel/Github/flask/dependencies/language/src/promise.cpp */,
+				AC422BF1678B44829EFC0C10 /* /Users/philipwenkel/Github/flask/dependencies/language/src/task.cpp */,
+				79C1D5C472034716A210F95C /* /Users/philipwenkel/Github/flask/dependencies/language/src/token.cpp */,
+				13444DE6038B4AF1B1D4FE86 /* /Users/philipwenkel/Github/flask/dependencies/language/src/uni.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C0D7BEF4D2F449185A5A397 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				989106CCC3C1499F9513B7DD /* /Users/philipwenkel/Github/flask/dependencies/language/tests/test.cpp */,
+				8ECA405AC7F742B489703E2B /* /Users/philipwenkel/Github/flask/dependencies/language/tests/testlib.cpp */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0840FA4EDC8C46668363FA88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B707143C794E2B802A0F8D /* ZERO_CHECK */;
+			targetProxy = 5F01BB523BFD485F9AC2B611 /* PBXContainerItemProxy */;
+		};
+		38BB548DE02142BBAB4724C1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274274536AA141EEAC6C2D89 /* language */;
+			targetProxy = 79234E0CFCF2404CABB3D63D /* PBXContainerItemProxy */;
+		};
+		3CE4FEC87F5040F08953892A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17595389266D49258FBBD033 /* test_language */;
+			targetProxy = 7D3A8AC74B9141A3AC158DDA /* PBXContainerItemProxy */;
+		};
+		9BAD34348CEB47C0B32910B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B707143C794E2B802A0F8D /* ZERO_CHECK */;
+			targetProxy = 56684B10B50E4326A270767A /* PBXContainerItemProxy */;
+		};
+		B3043228A7874002A83E94B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 93B707143C794E2B802A0F8D /* ZERO_CHECK */;
+			targetProxy = 7014E30EB9F6477C816A1A10 /* PBXContainerItemProxy */;
+		};
+		B9E5C43172654B739E301BD6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 274274536AA141EEAC6C2D89 /* language */;
+			targetProxy = CDDC55B7C5C347B288FD012E /* PBXContainerItemProxy */;
+		};
+		CFFBA4EED49F4F0982E6D260 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24C1E39ED1DD456DB999C90F /* ALL_BUILD */;
+			targetProxy = 77A33D21682B44CC9D9535F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1F675334450F4A2CBA37F693 /* Kuk */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/build;
+			};
+			name = Kuk;
+		};
+		1FD623A5273644B783B601B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/src/CMakeFiles/language.dir/Debug/cmake_pch.hxx;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/philipwenkel/Github/flask/dependencies/language/include,/opt/homebrew/include,/Users/philipwenkel/Github/flask/dependencies/language/include/language,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++2a' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = language;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		2A9BEBD35A6E44B79E0CA8AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		2FF1B2D1B79544B99BE33F07 /* Kuk */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Continuous;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Kuk;
+		};
+		3114FE6145FB410EB6E72B78 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3412F1B9C1874ABDACE586FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3660CFCBD2414AE897810417 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		3D8AFC0A2DB14BC191BA5AEA /* Kuk */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Kuk;
+		};
+		3E60EAEE21794D608BDF26FA /* Kuk */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Kuk;
+		};
+		53488EB93C2244E7B8B89230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/tests/CMakeFiles/test_language.dir/Release/cmake_pch.hxx;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/philipwenkel/Github/flask/dependencies/language/tests/language,/Users/philipwenkel/Github/flask/dependencies/language/tests/include,/Users/philipwenkel/Github/flask/dependencies/language/include,/opt/homebrew/include,"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-src/single_include","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++2a' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/philipwenkel/Github/flask/xbuild/dependencies/language/src/Release/liblanguage.a);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_language;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/tests;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5455CC9BD57A40B488371D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		5A70A55FD2CB4922BD7BD537 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		5ABB313677DF433ABD0E97F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/src/CMakeFiles/language.dir/Release/cmake_pch.hxx;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/philipwenkel/Github/flask/dependencies/language/include,/opt/homebrew/include,/Users/philipwenkel/Github/flask/dependencies/language/include/language,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "    -DNDEBUG '-std=gnu++2a' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = language;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6050DCC9C8DC470394BC7CCA /* Kuk */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Kuk;
+		};
+		6D384A99827F45B69E0FEE0B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		6F3DDD03AA2B4073ACE343AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		78D802CE65D4435292A7E746 /* Kuk */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = RUN_TESTS;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Kuk;
+		};
+		809EEB6461F84DA1A8DA0BD4 /* Kuk */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = lib;
+				EXECUTABLE_SUFFIX = .a;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/src/CMakeFiles/language.dir/Kuk/cmake_pch.hxx;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/philipwenkel/Github/flask/dependencies/language/include,/opt/homebrew/include,/Users/philipwenkel/Github/flask/dependencies/language/include/language,"$(inherited)");
+				INSTALL_PATH = "";
+				LIBRARY_STYLE = STATIC;
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "'-std=gnu++2a' ";
+				OTHER_LIBTOOLFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = language;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/src;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Kuk;
+		};
+		83FCA0BFF72F40E799D9FEA0 /* Kuk */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Experimental;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Kuk;
+		};
+		851C2AF056774AD0A737A909 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = install;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		8FFE24B218544BE6AF45ED01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NightlyMemoryCheck;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		9E80D64BB2B4449193BFAD93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Continuous;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		A0D58570E74D4E11A5A1E66F /* Kuk */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NightlyMemoryCheck;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Kuk;
+		};
+		A20B0A92BC3F451EBEFC96A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		B5AA119EC7C64AA8B0344AC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Nightly;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		C7B293DC9F5B4EFEB874B9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/tests/CMakeFiles/test_language.dir/Debug/cmake_pch.hxx;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/philipwenkel/Github/flask/dependencies/language/tests/language,/Users/philipwenkel/Github/flask/dependencies/language/tests/include,/Users/philipwenkel/Github/flask/dependencies/language/include,/opt/homebrew/include,"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-src/single_include","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "   '-std=gnu++2a' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/philipwenkel/Github/flask/xbuild/dependencies/language/src/Debug/liblanguage.a);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_language;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/tests;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		C976823868474BD08E5C3BCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = NightlyMemoryCheck;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DA085E05AF624FB4BD7A6985 /* Kuk */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/tests/CMakeFiles/test_language.dir/Kuk/cmake_pch.hxx;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (/Users/philipwenkel/Github/flask/dependencies/language/tests/language,/Users/philipwenkel/Github/flask/dependencies/language/tests/include,/Users/philipwenkel/Github/flask/dependencies/language/include,/opt/homebrew/include,"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-src/single_include","$(inherited)");
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_CPLUSPLUSFLAGS = "'-std=gnu++2a' ";
+				OTHER_LDFLAGS = (" -Wl,-search_paths_first -Wl,-headerpad_max_install_names",/Users/philipwenkel/Github/flask/xbuild/dependencies/language/src/Kuk/liblanguage.a);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = test_language;
+				SECTORDER_FLAGS = "";
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/tests;
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Kuk;
+		};
+		DA8C0972C9B845EEAB2D82F6 /* Kuk */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Nightly;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Kuk;
+		};
+		DF8EF041E0484CCFA19E60E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Nightly;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		E29B4C2E843746ADA2EEA151 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/build;
+			};
+			name = Release;
+		};
+		E92A8CF2E5F44B45B3CF67F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = /Users/philipwenkel/Github/flask/xbuild/dependencies/language/build;
+			};
+			name = Debug;
+		};
+		EE3B884B30EB41678C240F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = Continuous;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C0469B8FA4C4181A235452A /* Build configuration list for PBXAggregateTarget "Experimental" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3412F1B9C1874ABDACE586FF /* Debug */,
+				6F3DDD03AA2B4073ACE343AD /* Release */,
+				83FCA0BFF72F40E799D9FEA0 /* Kuk */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3BEBA39B096B4D3BA583263A /* Build configuration list for PBXAggregateTarget "NightlyMemoryCheck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FFE24B218544BE6AF45ED01 /* Debug */,
+				C976823868474BD08E5C3BCD /* Release */,
+				A0D58570E74D4E11A5A1E66F /* Kuk */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4A17A50A7AEE419AACFD8420 /* Build configuration list for PBXAggregateTarget "RUN_TESTS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5A70A55FD2CB4922BD7BD537 /* Debug */,
+				2A9BEBD35A6E44B79E0CA8AD /* Release */,
+				78D802CE65D4435292A7E746 /* Kuk */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		4A25A90945E64FDD8BCD7C2C /* Build configuration list for PBXNativeTarget "test_language" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C7B293DC9F5B4EFEB874B9BF /* Debug */,
+				53488EB93C2244E7B8B89230 /* Release */,
+				DA085E05AF624FB4BD7A6985 /* Kuk */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		839A0BCA154541D4B08107B9 /* Build configuration list for PBXAggregateTarget "Nightly" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF8EF041E0484CCFA19E60E1 /* Debug */,
+				B5AA119EC7C64AA8B0344AC4 /* Release */,
+				DA8C0972C9B845EEAB2D82F6 /* Kuk */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BC7988749943433287150324 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3660CFCBD2414AE897810417 /* Debug */,
+				6D384A99827F45B69E0FEE0B /* Release */,
+				6050DCC9C8DC470394BC7CCA /* Kuk */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BD0A996989904B5DB08B2D82 /* Build configuration list for PBXAggregateTarget "install" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3114FE6145FB410EB6E72B78 /* Debug */,
+				851C2AF056774AD0A737A909 /* Release */,
+				3D8AFC0A2DB14BC191BA5AEA /* Kuk */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BE270E67ED844977A8813530 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A20B0A92BC3F451EBEFC96A4 /* Debug */,
+				5455CC9BD57A40B488371D27 /* Release */,
+				3E60EAEE21794D608BDF26FA /* Kuk */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		C1C689C5970B448EAC5D1483 /* Build configuration list for PBXNativeTarget "language" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD623A5273644B783B601B4 /* Debug */,
+				5ABB313677DF433ABD0E97F8 /* Release */,
+				809EEB6461F84DA1A8DA0BD4 /* Kuk */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1D2401573AD4AFBA73B9CEC /* Build configuration list for PBXProject "language" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E92A8CF2E5F44B45B3CF67F4 /* Debug */,
+				E29B4C2E843746ADA2EEA151 /* Release */,
+				1F675334450F4A2CBA37F693 /* Kuk */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E1EE5916C93747178F2391C0 /* Build configuration list for PBXAggregateTarget "Continuous" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E80D64BB2B4449193BFAD93 /* Debug */,
+				EE3B884B30EB41678C240F2E /* Release */,
+				2FF1B2D1B79544B99BE33F07 /* Kuk */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B59525949E8B45F188DDFB8E /* Project object */;
+}

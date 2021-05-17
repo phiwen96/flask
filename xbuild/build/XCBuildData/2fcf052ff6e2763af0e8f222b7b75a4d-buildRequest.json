@@ -1,0 +1,82 @@
+{
+  "buildCommand" : "prepareForIndexing",
+  "configuredTargets" : [
+    {
+      "guid" : "e775416cc80da974b6b1982e51dc9ba3d9883cae0a5c319cf79161f47fb889bb"
+    },
+    {
+      "guid" : "e775416cc80da974b6b1982e51dc9ba30446e340a978e938e22c241602a0c77c"
+    },
+    {
+      "guid" : "e775416cc80da974b6b1982e51dc9ba3cf0bcbaf5f7886662a5937018ba7588c"
+    },
+    {
+      "guid" : "e775416cc80da974b6b1982e51dc9ba3e4c519dcbe3dc1e9e52d4c154bfd21c1"
+    },
+    {
+      "guid" : "e775416cc80da974b6b1982e51dc9ba3208c9358b3c923c921a2e238893fb77a"
+    },
+    {
+      "guid" : "e775416cc80da974b6b1982e51dc9ba3fbd52cab9b599aa39789b67e6b5ba7b2"
+    },
+    {
+      "guid" : "e775416cc80da974b6b1982e51dc9ba358f9abc784a01270f79c14721fb2182d"
+    },
+    {
+      "guid" : "e775416cc80da974b6b1982e51dc9ba332befb6695f23af4562f6eddc97ad16c"
+    },
+    {
+      "guid" : "e775416cc80da974b6b1982e51dc9ba36fe2ee9735c506d660e8a221c4dad51f"
+    },
+    {
+      "guid" : "e775416cc80da974b6b1982e51dc9ba35153742fd39090b846c95b90cb0ce5d7"
+    },
+    {
+      "guid" : "e775416cc80da974b6b1982e51dc9ba3b46949b676fb8847eb0ff08fffcd7392"
+    }
+  ],
+  "continueBuildingAfterErrors" : true,
+  "enableIndexBuildArena" : false,
+  "hideShellScriptEnvironment" : false,
+  "parameters" : {
+    "action" : "build",
+    "activeArchitecture" : "arm64",
+    "activeRunDestination" : {
+      "disableOnlyActiveArch" : false,
+      "platform" : "macosx",
+      "sdk" : "macosx11.3",
+      "sdkVariant" : "macos",
+      "supportedArchitectures" : [
+        "arm64e",
+        "arm64",
+        "x86_64"
+      ],
+      "targetArchitecture" : "arm64"
+    },
+    "arenaInfo" : {
+      "buildIntermediatesPath" : "",
+      "buildProductsPath" : "",
+      "derivedDataPath" : "/Users/philipwenkel/Library/Developer/Xcode/DerivedData",
+      "indexDataStoreFolderPath" : "/Users/philipwenkel/Library/Developer/Xcode/DerivedData/flask-gsubwngidnzxqafhysnrevrmmalf/Index/DataStore",
+      "indexEnableDataStore" : true,
+      "indexPCHPath" : "/Users/philipwenkel/Library/Developer/Xcode/DerivedData/flask-gsubwngidnzxqafhysnrevrmmalf/Index/PrecompiledHeaders",
+      "pchPath" : ""
+    },
+    "configurationName" : "Debug",
+    "overrides" : {
+      "synthesized" : {
+        "table" : {
+          "ENABLE_PREVIEWS" : "NO"
+        }
+      }
+    }
+  },
+  "qos" : "default",
+  "schemeCommand" : "launch",
+  "shouldCollectMetrics" : false,
+  "showNonLoggedProgress" : true,
+  "useDryRun" : true,
+  "useImplicitDependencies" : true,
+  "useLegacyBuildLocations" : false,
+  "useParallelTargets" : true
+}

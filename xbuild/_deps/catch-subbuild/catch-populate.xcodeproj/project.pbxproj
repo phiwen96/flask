@@ -1,0 +1,1068 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		1AB5FEAF1051427E87352DC8 /* catch-populate */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = B331E06FC9614E28982DBD64 /* Build configuration list for PBXAggregateTarget "catch-populate" */;
+			buildPhases = (
+				3DA04542A9296F855E81AA42 /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-mkdir */,
+				FD9B54E76E77FB3D17BC0595 /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-download */,
+				64EDCEF80E13063690BE67A4 /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-update */,
+				B97F4F16F093BC9497BDC381 /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-patch */,
+				D1E97ECCEC616FBBC58094B9 /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-configure */,
+				3A99435F97BB5F33074ABAFB /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-build */,
+				86EF6278F96790D6CFAD71EB /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-install */,
+				A88E869FF28AF884D7811429 /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-test */,
+				1CC81881E0F3C211BA93631F /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-complete */,
+				EA5C4FD56CFA772ADE28D28C /* Generate CMakeFiles/catch-populate */,
+			);
+			dependencies = (
+				E4567D13B9014AEE93F0BE34 /* PBXTargetDependency */,
+			);
+			name = "catch-populate";
+			productName = "catch-populate";
+		};
+		8FEE494D7DCB45F7AD3365A0 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6BD8BF0B9734442AB6420007 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				899A55A72266F6D9FCA785F1 /* Generate CMakeFiles/ZERO_CHECK */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+		99CB906AD5D0446BAB47D866 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = A7CF2BF5BF414E089204D93C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				E519B13758729723D51C6D22 /* Generate CMakeFiles/ALL_BUILD */,
+			);
+			dependencies = (
+				C174C27E27CD44CFA6836B78 /* PBXTargetDependency */,
+				5ECE2B232B2645F7819A093B /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildStyle section */
+		536A8F743FC94E589D081B69 /* MinSizeRel */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = MinSizeRel;
+		};
+		714A8FB1889244C084A7E286 /* Debug */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Debug;
+		};
+		804186F455484B5694E53813 /* Release */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = Release;
+		};
+		C1DB9ECF4D3F4BAE95A1E3A4 /* RelWithDebInfo */ = {
+			isa = PBXBuildStyle;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+			};
+			name = RelWithDebInfo;
+		};
+/* End PBXBuildStyle section */
+
+/* Begin PBXContainerItemProxy section */
+		62555327D95B470EB5DAAAF3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08E0550153744D29A1E6451B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FEE494D7DCB45F7AD3365A0;
+			remoteInfo = ZERO_CHECK;
+		};
+		65A15E9EAA034A9CB8F664C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08E0550153744D29A1E6451B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AB5FEAF1051427E87352DC8;
+			remoteInfo = "catch-populate";
+		};
+		AEB8459D130C4ED9885376A9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08E0550153744D29A1E6451B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FEE494D7DCB45F7AD3365A0;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1B43C9D858734EBB8A730E36 /* /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		BAA1F14E5BCC43E89E99017F /* /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; name = CMakeLists.txt; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		19BE42BC367541A281E21B0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31C0DF846ADF4DDDB57153CF /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		47D6588F50C14440BDBA9EB4 = {
+			isa = PBXGroup;
+			children = (
+				DDD91BE3DFFC490DA5A658D2 /* catch-populate */,
+				4F3ACC1E7B2C4BCF89ECF1C2 /* ALL_BUILD */,
+				70079D59138F4C2B8705DD19 /* Products */,
+				19BE42BC367541A281E21B0D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4F3ACC1E7B2C4BCF89ECF1C2 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				53A0D6AAFCC44E3098CC3F92 /* CMake Rules */,
+				1B43C9D858734EBB8A730E36 /* /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		53A0D6AAFCC44E3098CC3F92 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		70079D59138F4C2B8705DD19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDD91BE3DFFC490DA5A658D2 /* catch-populate */ = {
+			isa = PBXGroup;
+			children = (
+				31C0DF846ADF4DDDB57153CF /* CMake Rules */,
+				BAA1F14E5BCC43E89E99017F /* /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeLists.txt */,
+			);
+			name = "catch-populate";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		08E0550153744D29A1E6451B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1250;
+			};
+			buildConfigurationList = 285E085BA735479789296708 /* Build configuration list for PBXProject "catch-populate" */;
+			buildSettings = {
+			};
+			buildStyles = (
+				714A8FB1889244C084A7E286 /* Debug */,
+				804186F455484B5694E53813 /* Release */,
+				536A8F743FC94E589D081B69 /* MinSizeRel */,
+				C1DB9ECF4D3F4BAE95A1E3A4 /* RelWithDebInfo */,
+			);
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 47D6588F50C14440BDBA9EB4;
+			projectDirPath = .;
+			projectRoot = "";
+			targets = (
+				99CB906AD5D0446BAB47D866 /* ALL_BUILD */,
+				8FEE494D7DCB45F7AD3365A0 /* ZERO_CHECK */,
+				1AB5FEAF1051427E87352DC8 /* catch-populate */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CC81881E0F3C211BA93631F /* Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-complete */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-build","/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-configure","/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-download","/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-install","/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-mkdir","/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-patch","/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-test","/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-update"			);
+			name = "Generate CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-complete";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-complete"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-complete
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-done
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-complete
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-done
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-complete
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-done
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeFiles/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-complete
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-done
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3A99435F97BB5F33074ABAFB /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-build */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-configure"			);
+			name = "Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-build";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-build"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-build
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-build
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-build
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-build
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		3C0110FC8322DE7E50886E21 = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		3DA04542A9296F855E81AA42 /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-mkdir */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-mkdir";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-mkdir"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/tmp
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/tmp
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/tmp
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-mkdir
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/tmp
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E make_directory /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-mkdir
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		64EDCEF80E13063690BE67A4 /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-update */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-download"			);
+			name = "Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-update";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-update"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -P /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/tmp/catch-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -P /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/tmp/catch-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -P /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/tmp/catch-populate-gitupdate.cmake
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-src
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -P /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/tmp/catch-populate-gitupdate.cmake
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		86EF6278F96790D6CFAD71EB /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-install */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-build"			);
+			name = "Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-install";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-install"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-install
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-install
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-install
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-install
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		899A55A72266F6D9FCA785F1 /* Generate CMakeFiles/ZERO_CHECK */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ZERO_CHECK";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeFiles/ZERO_CHECK"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  make -f /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  make -f /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  make -f /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeScripts/ReRunCMake.make
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  make -f /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeScripts/ReRunCMake.make
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		9B50530E35CC49C82C2FACCF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		A88E869FF28AF884D7811429 /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-test */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-install"			);
+			name = "Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-test";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-test"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-test
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-test
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-test
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-test
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		B97F4F16F093BC9497BDC381 /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-patch */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-update"			);
+			name = "Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-patch";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-patch"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-patch
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-patch
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D1E97ECCEC616FBBC58094B9 /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-configure */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-patch","/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/tmp/catch-populate-cfgcmd.txt"			);
+			name = "Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-configure";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-configure"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-configure
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E echo_append
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-configure
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		D9DAC7799B2CEEBEF4B6B9EF = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# shell script goes here
+exit 0";
+			showEnvVarsInLog = 0;
+		};
+		E519B13758729723D51C6D22 /* Generate CMakeFiles/ALL_BUILD */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Generate CMakeFiles/ALL_BUILD";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeFiles/ALL_BUILD"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  echo Build\\ all\\ projects
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+  echo Build\\ all\\ projects
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		EA5C4FD56CFA772ADE28D28C /* Generate CMakeFiles/catch-populate */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeFiles/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-complete"			);
+			name = "Generate CMakeFiles/catch-populate";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/CMakeFiles/catch-populate"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+		FD9B54E76E77FB3D17BC0595 /* Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-download */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-mkdir","/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/catch-populate-gitinfo.txt"			);
+			name = "Generate catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-download";
+			outputPaths = (
+"/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/catch-populate-download"			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "set -e
+if test \"$CONFIGURATION\" = \"Debug\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -P /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/tmp/catch-populate-gitclone.cmake
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-download
+fi
+if test \"$CONFIGURATION\" = \"Release\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -P /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/tmp/catch-populate-gitclone.cmake
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-download
+fi
+if test \"$CONFIGURATION\" = \"MinSizeRel\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -P /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/tmp/catch-populate-gitclone.cmake
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-download
+fi
+if test \"$CONFIGURATION\" = \"RelWithDebInfo\"; then :
+  cd /Users/philipwenkel/Github/flask/xbuild/_deps
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -P /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/tmp/catch-populate-gitclone.cmake
+  /opt/homebrew/Cellar/cmake/3.20.2/bin/cmake -E touch /Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/catch-populate-prefix/src/catch-populate-stamp/$CONFIGURATION$EFFECTIVE_PLATFORM_NAME/catch-populate-download
+fi
+";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5ECE2B232B2645F7819A093B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FEE494D7DCB45F7AD3365A0 /* ZERO_CHECK */;
+			targetProxy = AEB8459D130C4ED9885376A9 /* PBXContainerItemProxy */;
+		};
+		C174C27E27CD44CFA6836B78 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AB5FEAF1051427E87352DC8 /* catch-populate */;
+			targetProxy = 65A15E9EAA034A9CB8F664C9 /* PBXContainerItemProxy */;
+		};
+		E4567D13B9014AEE93F0BE34 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FEE494D7DCB45F7AD3365A0 /* ZERO_CHECK */;
+			targetProxy = 62555327D95B470EB5DAAAF3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		17C33A503A46456CBC3D63C8 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		1B88C4AF29524A9EBD9C325C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "catch-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		27F7736852E24747BB0096C4 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = MinSizeRel;
+		};
+		4E12633A849849F5BF151E8F /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/build";
+			};
+			name = MinSizeRel;
+		};
+		64D976BCBA354E99BD316FFA /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/build";
+			};
+			name = RelWithDebInfo;
+		};
+		672EA399899B4EC4B0F6F0CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/build";
+			};
+			name = Debug;
+		};
+		930F8C3D70F9408F8A0DE995 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "catch-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		A49B5099D86241D1952753F6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX11.3.sdk;
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild/build";
+			};
+			name = Release;
+		};
+		B08E28A5A56340149AB9B897 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		B473911E86FC41C18311CEC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		BD356BD4564049A49573E177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Release;
+		};
+		DADED0C3951347F3A1C89C02 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "catch-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+		DBCF9EA1351640A0A56BBC7A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E3BEFCB12D0F42039BC8641F /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = "catch-populate";
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		E4B404BF74AC46FBB10B7789 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = RelWithDebInfo;
+		};
+		EF5040DC27354517B3012269 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = arm64;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = ("'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'");
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				INSTALL_PATH = "";
+				ONLY_ACTIVE_ARCH = NO;
+				OTHER_LDFLAGS = ("");
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/philipwenkel/Github/flask/xbuild/_deps/catch-subbuild";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = ("$(inherited)");
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		285E085BA735479789296708 /* Build configuration list for PBXProject "catch-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				672EA399899B4EC4B0F6F0CF /* Debug */,
+				A49B5099D86241D1952753F6 /* Release */,
+				4E12633A849849F5BF151E8F /* MinSizeRel */,
+				64D976BCBA354E99BD316FFA /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		6BD8BF0B9734442AB6420007 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF5040DC27354517B3012269 /* Debug */,
+				B08E28A5A56340149AB9B897 /* Release */,
+				27F7736852E24747BB0096C4 /* MinSizeRel */,
+				E4B404BF74AC46FBB10B7789 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A7CF2BF5BF414E089204D93C /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B473911E86FC41C18311CEC0 /* Debug */,
+				BD356BD4564049A49573E177 /* Release */,
+				17C33A503A46456CBC3D63C8 /* MinSizeRel */,
+				DBCF9EA1351640A0A56BBC7A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		B331E06FC9614E28982DBD64 /* Build configuration list for PBXAggregateTarget "catch-populate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DADED0C3951347F3A1C89C02 /* Debug */,
+				930F8C3D70F9408F8A0DE995 /* Release */,
+				1B88C4AF29524A9EBD9C325C /* MinSizeRel */,
+				E3BEFCB12D0F42039BC8641F /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08E0550153744D29A1E6451B /* Project object */;
+}

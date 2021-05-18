@@ -1,4 +1,4 @@
-file(GLOB_RECURSE HEADER_LIST "${PROJECT_SOURCE_DIR}/include/${CMAKE_PROJECT_NAME}/*.hpp")
+file(GLOB_RECURSE HEADER_LIST "../include/flask/*.hpp")
 file(GLOB SOURCE_LIST ${PROJECT_SOURCE_DIR}/src/*.cpp)
 
 set (self ${PROJECT_NAME})
@@ -10,6 +10,7 @@ add_executable (${self}
 ph_IDE ()
 
 ph_precompile (TARGET ${self} PUBLIC PCH ${std_pch} ${boost_pch})
+add_custom_target (run COMMAND $<TARGET_FILE:${self}>)
 
 # add_library (ph::expression_templates ALIAS ${self})
 target_link_libraries (${self} PUBLIC ${Boost_LIBRARIES} ph::language)
@@ -22,6 +23,17 @@ install(TARGETS ${self}
     CONFIGURATIONS Release
     DESTINATION ${CMAKE_INSTALL_BINDIR}
 )
+
+target_include_directories(${self} PRIVATE
+    $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include/${self}>
+    $<INSTALL_INTERFACE:include/${self}>
+)
+
+target_include_directories(${self} PUBLIC
+    $<BUILD_INTERFACE:${PROJECT_SOURCE_DIR}/include>
+    $<INSTALL_INTERFACE:include>
+)
+    
 
 if (CMAKE_PROJECT_NAME STREQUAL PROJECT_NAME)
 

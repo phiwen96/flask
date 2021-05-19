@@ -1,19 +1,19 @@
 using namespace std;
 #include "flask.hpp"
+/**
+ test main with argument /Users/philipwenkel/Github/flask/test.hpp
+ */
 
 int main (int argc, char** argv)
 {
-    string s = * (argv + 1);
-    cout << s << endl;
     
+
     if (argc > 2)
         throw;
     
-//    else if (argc == 1)
-//        flask {*argv};
+    else if (argc == 2)
+        flask::run (flask::get_file_content (* (argv + 1)));
     
-//        system ("open . && pwd");
     
-    cout << "yi" << endl;
     return 0;
 }

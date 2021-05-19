@@ -5,6 +5,7 @@ get_filename_component (self ${CMAKE_CURRENT_SOURCE_DIR} NAME)
 
 
 
+
 set (_Darwin 0)
 set (_Linux 0)
 set (_Windows 0)

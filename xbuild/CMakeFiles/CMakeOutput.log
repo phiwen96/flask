@@ -296,3 +296,5 @@ Parsed CXX implicit link information from above output:
 
 Checking whether the ASM_NASM compiler is NASM using "-v" matched "(NASM version)":
 NASM version 2.15.05 compiled on Dec 22 2020
+Checking whether the ASM_NASM compiler is NASM using "-v" matched "(NASM version)":
+NASM version 2.15.05 compiled on Dec 22 2020

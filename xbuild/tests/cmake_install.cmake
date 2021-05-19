@@ -39,3 +39,8 @@ endif()
 
 set(CMAKE_BINARY_DIR "/Users/philipwenkel/Github/flask/xbuild")
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build/cmake_install.cmake")
+endif()
+

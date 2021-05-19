@@ -53,7 +53,7 @@ project (
 add_subdirectory (cmake/phake)
 # add_subdirectory (dependencies/Lua-master)
 if (NOT TARGET language)
-	add_subdirectory (dependencies/language)
+	add_subdirectory (dependencies/ph_scanner)
 endif ()
 
 # if (NOT TARGET ph_type_list)

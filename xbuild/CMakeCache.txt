@@ -53,8 +53,8 @@ CMAKE_ADDR2LINE:FILEPATH=CMAKE_ADDR2LINE-NOTFOUND
 //Path to a program.
 CMAKE_AR:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ar
 
-//NASM compiler
-CMAKE_ASM_NASM_COMPILER:FILEPATH=/opt/homebrew/bin/nasm
+//ASM_NASM compiler
+CMAKE_ASM_NASM_COMPILER:STRING=/opt/homebrew/bin/nasm
 
 //Flags used by the ASM_NASM compiler during all build types.
 CMAKE_ASM_NASM_FLAGS:STRING=
@@ -76,6 +76,9 @@ CMAKE_ASM_NASM_FLAGS_RELWITHDEBINFO:STRING=
 
 //No help, variable specified on the command line.
 CMAKE_CONFIGURATION_TYPES:UNINITIALIZED=Debug;Release;Kuk
+
+//No help, variable specified on the command line.
+CMAKE_CXX_COMPILER:UNINITIALIZED=/Applications/Xcode.app/Contents/Developer/usr/bin/g++
 
 //Flags used by the CXX compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -327,6 +330,9 @@ CTEST_SUBMIT_RETRY_DELAY:STRING=5
 //Value Computed by CMake
 Catch2_BINARY_DIR:STATIC=/Users/philipwenkel/Github/flask/xbuild/_deps/catch-build
 
+//The directory containing a CMake configuration file for Catch2.
+Catch2_DIR:PATH=/opt/homebrew/lib/cmake/Catch2
+
 //Value Computed by CMake
 Catch2_SOURCE_DIR:STATIC=/Users/philipwenkel/Github/flask/xbuild/_deps/catch-src
 
@@ -406,6 +412,12 @@ ph_debug_BINARY_DIR:STATIC=/Users/philipwenkel/Github/flask/xbuild/dependencies/
 
 //Value Computed by CMake
 ph_debug_SOURCE_DIR:STATIC=/Users/philipwenkel/Github/flask/dependencies/language/dependencies/ph_debug
+
+//Value Computed by CMake
+ph_scanner_BINARY_DIR:STATIC=/Users/philipwenkel/Github/flask/xbuild/dependencies/ph_scanner
+
+//Value Computed by CMake
+ph_scanner_SOURCE_DIR:STATIC=/Users/philipwenkel/Github/flask/dependencies/ph_scanner
 
 //Value Computed by CMake
 ph_time_BINARY_DIR:STATIC=/Users/philipwenkel/Github/flask/xbuild/dependencies/language/dependencies/ph_debug/dependencies/ph_time
@@ -554,7 +566,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=17
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=9
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP
@@ -650,6 +662,8 @@ PROJECT_ph_color_GUID_CMAKE:INTERNAL=C285C0AA12654923883F2904
 //Stored Xcode object GUID
 PROJECT_ph_debug_GUID_CMAKE:INTERNAL=614239291185428C84CC6FB1
 //Stored Xcode object GUID
+PROJECT_ph_scanner_GUID_CMAKE:INTERNAL=7A7EA7E3DE96476594DE4D90
+//Stored Xcode object GUID
 PROJECT_ph_time_GUID_CMAKE:INTERNAL=7287BF3E48524B008F3A420C
 //Stored Xcode object GUID
 RUN_TESTS_GUID_CMAKE:INTERNAL=0AFEF793B78B4FF286BBF0D4
@@ -672,6 +686,8 @@ ph_color_GUID_CMAKE:INTERNAL=E4A02F3F6C8647108C359706
 //Stored Xcode object GUID
 ph_debug_GUID_CMAKE:INTERNAL=B35027CE1FD44B57839A91DE
 //Stored Xcode object GUID
+ph_scanner_GUID_CMAKE:INTERNAL=5B841C89CF07450D9A268995
+//Stored Xcode object GUID
 ph_time_GUID_CMAKE:INTERNAL=4AC55E5E3FE54B73A3AD327F
 //Stored Xcode object GUID
 run_GUID_CMAKE:INTERNAL=D00236F8350B4BD4A76C0495
@@ -679,4 +695,6 @@ run_GUID_CMAKE:INTERNAL=D00236F8350B4BD4A76C0495
 test_flask_GUID_CMAKE:INTERNAL=FFF2FBC16E244076B08BC7CA
 //Stored Xcode object GUID
 test_language_GUID_CMAKE:INTERNAL=FE8D700286EF46BDB35326AA
+//Stored Xcode object GUID
+test_ph_scanner_GUID_CMAKE:INTERNAL=886B020EA713414EA4F07194
 

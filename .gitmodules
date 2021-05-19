@@ -2,5 +2,6 @@
 	path = cmake/phake
 	url = https://github.com/phiwen96/phake
 [submodule "dependencies/language"]
-	path = dependencies/language
-	url = https://github.com/phiwen96/language
+[submodule "dependencies/ph_scanner"]
+	path = dependencies/ph_scanner
+	url = https://github.com/phiwen96/ph_scanner

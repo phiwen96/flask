@@ -51,3 +51,31 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
   endif()
 endif()
 
+if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
+  if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/philipwenkel/Github/flask/xbuild/src/Debug/flask")
+    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/flask" AND
+       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/flask")
+      if(CMAKE_INSTALL_DO_STRIP)
+        execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/flask")
+      endif()
+    endif()
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/philipwenkel/Github/flask/xbuild/src/Release/flask")
+    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/flask" AND
+       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/flask")
+      if(CMAKE_INSTALL_DO_STRIP)
+        execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/flask")
+      endif()
+    endif()
+  elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Kk][Uu][Kk])$")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "/Users/philipwenkel/Github/flask/xbuild/src/Kuk/flask")
+    if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/flask" AND
+       NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/flask")
+      if(CMAKE_INSTALL_DO_STRIP)
+        execute_process(COMMAND "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/strip" -u -r "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/flask")
+      endif()
+    endif()
+  endif()
+endif()
+

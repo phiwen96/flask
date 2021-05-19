@@ -46,6 +46,11 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
+  include("/Users/philipwenkel/Github/flask/xbuild/dependencies/language/dependencies/ph_debug/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
   include("/Users/philipwenkel/Github/flask/xbuild/dependencies/language/src/cmake_install.cmake")
 endif()
 
